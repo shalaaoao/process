@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Helvetica Neue",Helvetica,STHeitiSC,"Noto Sans S Chinese","Microsoft Yahei",Arial,sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+#process_all{
+    width:100%;
+    height:100%;
+    background-color:#EAEAEA;
+    padding-top:40px;
+    zoom:1;
+}
+
+#process_container{
+    width:1240px;
+    height:100%;
+    margin-left:40px;
+    background:white;
+}
+
+#process_container ul{
+    width:100%;
+    height:100%;
+    padding-top:70px;
+}
+
+#process_container ul li{
+    width:1110px;
+    height:152px;
+    line-height:140px;
+    border-radius:84px;
+    font-size:70px;
+    font-weight:bold;
+    margin-left:70px;
+    background-color:white;
+    text-align:center;
+}
+
+.process_container_ul_p{
+    width:6px;
+    height:80px;
+    background-color:#e0e0e0;
+    margin:0px auto;
+}
+
+#process_time{
+    width:560px;
+    height:310px;
+    background:white;
+    position:fixed;
+    top:40px;
+    right:40px;
+    font-size:168px;
+    color:#555964;
+    text-align:center;
+    line-height:310px;
+    box-shadow:0 0 8px rgba(0,0,0,0.05);
+    font-weight:300;
+}
+
+#process_system{
+    width:560px;
+    height:650px;
+    position:fixed;
+    top:390px;
+    right:40px;
+    background:white;
+    box-shadow:0 0 8px rgba(0,0,0,0.05);
+}
+
+.process_system_list{
+    width:500px;
+    height:46px;
+    margin-left:60px;
+    margin-bottom:64px;
+}
+
+.process_system_circle{
+    width:46px;
+    height:46px;
+    border-radius:100%;
+    float:left;
+    font-size:0px;
+}
+
+.process_system_word{
+    font-size:42px;
+    color:#83868e;
+    float:left;
+    margin-left:42px;
+    height:46px;
+    line-height:46px;
+}
+
+.system_szt{
+    color:#FFA648;
+    background-color:#FFA648;
+    border:8px solid #FFA648;
+
+}
+
+
+.system_jygl{
+    color:#FF7D6D;
+    background-color:#FF7D6D;
+    border:8px solid #FF7D6D;
+}
+
+
+.system_zjqs{
+    color:#5DD0B3;
+    background-color:#5DD0B3;
+    border:8px solid #5DD0B3;
+}
+
+.system_msyh{
+    color:#76C7F6;
+    background-color:#76C7F6;
+    border:8px solid #76C7F6;
+}
+
+
+.system_sjzx{
+    color:#899FF4;
+    background-color:#899FF4;
+    border:8px solid #899FF4;
+}
+
+
+@media screen and (min-width:800px) and (max-width:1400px) {
+    #process_all{
+        width:100%;
+        height:100%;
+        background-color:green;
+        padding-top:40px;
+        zoom:1;
+    }
+    #process_container{
+        width:65%;
+        height:100%;
+        margin-left:40px;
+        background:white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

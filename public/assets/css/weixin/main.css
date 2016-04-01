@@ -1,0 +1,8 @@
+.navbar{margin-top:0px;border:none;margin-bottom: 0px;}
+.navbar ul{height:75px;border-top: 1px solid #e0e0e0;border-bottom:1px solid #e0e0e0; padding: 0px; margin-bottom: 0;}
+.navbar ul li{float: left;width:159px;height:74px;text-align: center;}
+.navbar ul .line_1{height:45px;margin-top:16px;width:1px;border-left: 1px solid #d0d0d0;}
+.navbar ul li a{text-decoration: none;color: #a0a0a0;font-size: 26px;height:74px;line-height: 74px;display: block;width:124px;margin: 0px auto;}
+.navbar ul li .active{ color:#505050; border-bottom:5px solid #ffda3e;}
+#near-col,#hot-col,#intro-col{display: none;}
+.mt-275{margin-top: 275px;}

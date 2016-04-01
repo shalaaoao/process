@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+div{margin: 0;padding: 0;}
+li{list-style:none;}
+body{font-family: 微软雅黑,helvetica;color: #505050;font-size: 28px;position: relative;padding: 0;margin: 0px;}
+.mt20 {margin-top: 10px;}
+.ml-20{margin-left: 20px;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear:both;}
+.font-s{font-size: 36px;padding:6px 30px;border-radius: 10px;}
+#main{width: 640px;height: 125px;position: absolute;bottom: 187px;left: 0}
+.div-a a{width: 155px;height: 115px;display: block;}
+#foot{width: 640px;position: absolute;bottom: 0px;left: 0}
+#foot .nav{height: 135px;}
+#foot .nav .list{line-height: 90px;text-align: center;}
+.footer{width: 640px;}
+#foot .nav a{text-decoration: none;color:#505050;width: 155px;height:135px;display: block;margin-left: 2px;}
+#foot .nav a:hover,#foot .nav a:active,#foot .nav a:link{text-decoration: none;color:#505050;}
+.left-bar{background: url('/assets/img/left2.png') no-repeat;margin-left: 10px;}
+.right-bar{background: url('/assets/img/right2.png') no-repeat right;margin-right: 10px;}

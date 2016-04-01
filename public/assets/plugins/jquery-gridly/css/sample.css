@@ -1,0 +1,63 @@
+
+.drag_grid{
+  position: relative; }
+  .drag_grid .brick {
+    cursor: pointer;
+    position: relative; }
+    .drag_grid .brick .delete {
+      display: block;
+      color: white;
+      background: rgba(255, 255, 255, 0.2);
+      width: 100%;
+      height: 80px;
+      top: 0;
+      right: 0;
+      position: absolute;
+      text-align: center;
+      line-height: 80px; }
+    .drag_grid .brick.small {
+      width: 100%;
+      height: 80px; }
+    .drag_grid .brick.large {
+      width: 100%;
+      height: 80px; }
+    .drag_grid .brick:nth-child(1) {
+      background: #1abc9c; }
+    .drag_grid .brick:nth-child(2) {
+      background: #16a085; }
+    .drag_grid .brick:nth-child(3) {
+      background: #2ecc71; }
+    .drag_grid .brick:nth-child(4) {
+      background: #27ae60; }
+    .drag_grid .brick:nth-child(5) {
+      background: #3498db; }
+    .drag_grid .brick:nth-child(6) {
+      background: #2980b9; }
+    .drag_grid .brick:nth-child(7) {
+      background: #9b59b6; }
+    .drag_grid .brick:nth-child(8) {
+      background: #8e44ad; }
+    .drag_grid .brick:nth-child(9) {
+      background: #34495e; }
+    .drag_grid .brick:nth-child(10) {
+      background: #2c3e50; }
+    .drag_grid .brick:nth-child(11) {
+      background: #f1c40f; }
+    .drag_grid .brick:nth-child(12) {
+      background: #f39c12; }
+    .drag_grid .brick:nth-child(13) {
+      background: #e67e22; }
+    .drag_grid .brick:nth-child(14) {
+      background: #d35400; }
+    .drag_grid .brick:nth-child(15) {
+      background: #e74c3c; }
+    .drag_grid .brick:nth-child(16) {
+      background: #c0392b; }
+    .drag_grid .brick:nth-child(17) {
+      background: #ecf0f1; }
+    .drag_grid .brick:nth-child(18) {
+      background: #bdc3c7; }
+    .drag_grid .brick:nth-child(19) {
+      background: #95a5a6; }
+    .drag_grid .brick:nth-child(20) {
+      background: #7f8c8d; }

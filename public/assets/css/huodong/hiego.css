@@ -1,0 +1,110 @@
+/**
+ * 公共样式
+ */
+* { -webkit-tap-highlight-color:transparent; }
+input,select{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+.mg-l60{margin-left:60px !important;}
+.mg-l15{margin-left:15px !important;}
+.mg-l30{margin-left:30px !important;}
+.mg-r60{margin-right:60px !important;}
+.mg-r10{margin-right:10px !important;}
+.mg-t60{margin-top:60px !important;}
+.mg-t80{margin-top:80px !important;}
+.mg-t40{margin-top:40px !important;}
+.mg-t30{margin-top:30px !important;}
+.mg-t25{margin-top:25px !important;}
+.mg-t20{margin-top:20px !important;}
+.mg-t18{margin-top:18px !important;}
+.mg-t10{margin-top:10px !important;}
+.mg-b100{margin-bottom:100px !important;}
+.mg-b80{margin-bottom:80px !important;}
+.height_780{height:780px;}
+.fts_17{font-size:17px;}
+.fts_20{font-size:20px;}
+.fts_21{font-size:21px;}
+.fts_22{font-size:22px;}
+.fts_24{font-size:24px;}
+.fts_25{font-size:25px;}
+.fts_26{font-size:26px;}
+.fts_30{font-size:30px;}
+.fts_32{font-size:32px;font-weight:bold;}
+.fts_34{font-size:34px !important;}
+.fts_42{font-size:42px;}
+.fts_43{font-size:43px;}
+.fts_44{font-size:44px;}
+.fts_47{font-size:47px;font-weight:bold;}
+.ft_line{text-decoration:line-through}
+.text_center{text-align:center;}
+.cl_red{color:#d60919;}
+.cl_fff{color:#fff;}
+.cl_ffff01{color:#ffff01;}
+.cl_303537{color: #303537;}
+.cl_53{color:#535353;}
+.cl_68{color: #686868;}
+.font_bold{font-weight:bold;}
+.width580{width:580px;margin:80px auto 0;}
+.width640{width:640px;margin:60px auto;}
+.width530{width:530px !important;}
+.resp_msg{height:50px;line-height:50px;color:red;width:580px;margin:0px auto;/*border:1px solid red;*/font-size:22px;}
+hr{width:580px;height:1px;color:#094076;margin:0 auto;}
+
+/**
+ * header 样式
+ */
+#header{width:640px;height:83px;background:url(/assets/images/hiego_logo.jpg) center no-repeat;}
+#header .title{width:376px;float:left;text-align:center;line-height:83px;}
+/*#header{width:580px;height:98px;margin:0px auto;}*/
+/*#header .logo{width:215px;height:98px;background:url(/assets/images/logo.png) center no-repeat;}*/
+
+/**
+ * main 样式
+ */
+#main{width:580px;margin:0px auto;position:relative;}
+#main h1{margin:0 auto; }
+#main .content{width:580px; margin:30px auto 0px;}
+#main .content .row{margin-top:10px;width:580px;}
+#main .content ul{overflow:hidden;width:326px;margin:0 auto;}
+#main .content ul .list{float:left;width:100px;height:40px;text-align:center;line-height:40px;border:1px solid #a0a0a0;color:#fff;background-color:#ccc;}
+#main .content ul .active{background-color:#555964;}
+#main .content input{width:320px;height:62px;line-height:62px;font-size:26px;text-align:center;margin-top:30px;}
+#main .form_bar{width:320px;margin:10px auto;}
+#main .box_show{position:absolute;}
+#main .box_show .title{font-size:22px;}
+#main .box_show p{font-size:20px;}
+#main .pos1{top:110px;left:-10px;}
+#main .pos2{top:220px;right:-10px;}
+#main .pos3{top:430px;left:-10px;}
+#notice_list{list-style-type:disc !important; margin-left:20px !important;width:560px !important;overflow: unset !important;}
+#notice_list a:link,a:visited,a:hover,a:active{ text-decoration:none; outline:none;color:#094076;}
+#main .qa{width:560px;margin:25px auto;}
+#main .qa_title{font-weight:bold;}
+/*#service_call{width:580px;height:89px;line-height:89px;font-size:26px;font-weight:bold;text-align:left;}*/
+#service_call a:link,a:visited,a:hover,a:active{text-decoration:none; outline:none;color:#094076;}
+/**
+ * footer 样式
+ */
+#footer{width:640px;overflow:hidden;position:relative;bottom:0px;}
+#footer a:link,a:visited,a:hover,a:active{ text-decoration:none; outline:none;color:#fff;}
+.btn{border:none;background-color:#d60919;color:#fff;height:68px;line-height:68px;font-size:32px;font-weight:bold;text-align:center;display:block;margin: 0px auto;border-radius:6px;letter-spacing:3px;}
+.btn_s{width:200px;}
+.btn_m{width:360px;}
+.btn_b{width:320px;}
+.btn_498{width:498px;}
+.btn_mb{width:640px;}
+
+/**
+ * over_page 弹出层
+ */
+#over_page{display:none;/*background-color: #000;opacity:0.7;*/width:100%;height:100%;position:fixed;top:0px;left:0px;z-index:1;}
+.page_alert{display:none;width:240px;height:200px;position:fixed;top:200px;left:150px;z-index:9;background-color:#094076;box-shadow:0px 0px 3px #000;padding:10px 40px;border-radius:4px;}
+.upload{display:block;border:none;background-color:#fff;height:66px;line-height:66px;width:560px;margin:0px auto;border:2px solid #094076;color:#094076;font-size:30px;border-radius:4px;}
+
+/**
+ * 购车进度
+ */
+.progress{width:580px;height:32px;margin:85px auto 0;}
+.step1{background:url(/assets/images/step1.jpg) center no-repeat;}
+.step2{background:url(/assets/images/step2.jpg) center no-repeat;}
+.step3{background:url(/assets/images/step3.jpg) center no-repeat;}
+
+.button{width:187px;height:46px;font-size:24px;line-height:46px;color:#fff;background-color:#348aea;border-radius:6px;margin-left:18px;text-align: center;}
